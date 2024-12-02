@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import Image from "../../../LoginPage/Login-Auth-Firebase-ReactJS/src/assets/image.png";
-import Logo from "../../../LoginPage/Login-Auth-Firebase-ReactJS/src/assets/logo.png";
-import GoogleSvg from "../../../LoginPage/Login-Auth-Firebase-ReactJS/src/assets/icons8-google.svg";
+import Image from "../assets/image.png";
+import Logo from "../assets/logo.png";
+import GoogleSvg from "../assets/icons8-google.svg";
 import { toast } from "react-toastify";
 import {GoogleAuthProvider, signInWithPopup} from "firebase/auth";
 import {auth} from "./firebase.jsx";
